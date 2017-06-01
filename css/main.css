@@ -1,3 +1,77 @@
 /*
  * Estilos de tu proyecto
  */
+
+ * {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ h3, h1, h5 {
+color: white;
+
+}
+
+ a{
+	color: white;
+	text-align: left;
+	text-decoration: none;
+}
+
+a:hover {
+  color:#18BC9C;
+}
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+
+header{
+  position: fixed;
+  background: #2C3E50;
+  width: 100%;
+  top: 0;
+}
+
+#portada-perfil{
+ 
+  background-position: center;
+  background: #18BC9C;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 554px;
+  margin-top: 20px;
+}
+
+.img-responsive{
+   background-position: center;
+   text-align: center;
+   padding: 100px;
+   
+}
+
+.col-3 img {
+	width: 400px;
+}
+
+
+
+
+

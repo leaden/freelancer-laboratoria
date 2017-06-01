@@ -1,3 +1,25 @@
 /*
  * Estilos reutilizables
  */
+
+
+
+
+
+
+ 
+.grid-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+[class*="col-"]{
+    min-height: 7px;
+    padding: 12px; /* gutter */
+    float: left;
+}
+ .col-3{
+    /* (3 / 12) * 100 */
+    width: 25%;
